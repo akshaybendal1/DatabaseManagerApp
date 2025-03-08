@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "my-project",
-    "slug": "my-project",
-    "version": "1.0.0",
+    "name": "Database Management",
+    "slug": "dbmanager",
+    "version": "1.0.1",
+    "newArchEnabled":true,
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -23,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.akshaybendal1.myproject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +34,9 @@
       "eas": {
         "projectId": "92ccd8b7-403e-4b4f-87f4-1f6cf53baca5"
       }
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
